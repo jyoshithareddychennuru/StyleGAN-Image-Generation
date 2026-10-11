@@ -140,16 +140,24 @@ Observation:
 
 # Results
 
-The model produces synthetic images after training.
+## Generated Images
 
-Generated results include:
+![Generated Images](results/generated_images.png)
 
-* Generated image samples
-* Training loss curves
-* Style mixing outputs
-* Latent interpolation results
 
-Results are available inside the `results` folder.
+## Training Loss
+
+![Loss Curve](results/loss_curve.png)
+
+
+## Style Mixing
+
+![Style Mixing](results/style_mixing.png)
+
+
+## Latent Interpolation
+
+![Latent Interpolation](results/latent_interpolation.png)
 
 ---
 
