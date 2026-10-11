@@ -1,0 +1,30 @@
+                 StyleGAN Architecture
+
+
+              Random Noise Vector (z)
+                       |
+                       ↓
+              Mapping Network
+                       |
+                       ↓
+              Intermediate Latent Space (w)
+                       |
+                       ↓
+        ---------------------------------
+        |                               |
+        ↓                               ↓
+ Styled Convolution              AdaIN Layer
+        |                               |
+        ---------------------------------
+                       |
+                       ↓
+                  Generator
+                       |
+                       ↓
+             Synthetic Generated Image
+                       |
+                       ↓
+                Discriminator
+                       |
+                       ↓
+              Real / Fake Prediction
